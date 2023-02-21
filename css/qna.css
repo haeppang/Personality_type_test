@@ -1,0 +1,86 @@
+#qna {
+  display: none;
+}
+
+.qBox {
+
+  text-align: center;
+  font-size: 27px;
+  width: 80% ;  
+}
+
+.qBox {
+
+  text-align: center;
+  font-size: 27px;
+  width: 80% ;  
+}
+
+.qcount{
+  Font-family: Inter;
+  Font-style: Regular;
+  Font-size: 15px;
+  Line-height: 20px;
+  Line-height: 133%;
+  Align: Center;
+  text-align: right;
+  vertical-align: Top;
+  letter-spacing: -5%;
+}
+
+#img{
+  display: block ; 
+  margin: 0 auto ;
+   width: 300px ; 
+   height:300px ;
+   object-fit: cover;
+}
+#qtext{
+  display: block ; 
+  margin: 0 auto ;
+   width: 300px ; 
+   font-size: 27px;
+   object-fit: cover;
+}
+
+
+.answerList {
+
+  border: 4px solid #5D8A5D;
+  background-color: #E1FFE1;
+  border-radius: 20px ;
+  color: #5D8A5D;
+  display: block;
+  width: 80%;
+  border: 0px;
+  font-size: 20px;
+}
+
+.answerList:hover, .answerList:focus {
+  background-color: #77af9c;
+  color: #d7fff1;
+}
+
+
+.status {
+  height: 20px;
+  width: 80%;
+  background-color: #E1FFE1;
+  border-radius: 20px;
+}
+
+
+.statusBar {
+  height: 100%;
+  border-radius: 20px;
+  
+  background: #F0FFF0;
+  background: -moz-linear-gradient(top, #497649 0%, #497649 52%, #497649 100%);
+  
+  background: -webkit-linear-gradient(top, #497649 0%, #497649 52%, #497649 100%);
+  
+  background: linear-gradient(to bottom, #497649 0%, #497649 52%, #497649 100%);
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F0FFF0', endColorstr='#497649', GradientType=0);
+  
+}
