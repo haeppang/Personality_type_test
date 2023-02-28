@@ -1,47 +1,53 @@
-#main {
-  
-  width: 80%;
-  text-align: center;
-  border-radius: 20px; 
-  Align: Center;
-  vertical-align : top;
-  letter-spacing: -8%;
 
-  
+#main {
+
+    background: url("../img/backimg.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+.titleimg{
+     width: 100%;
+    height: 100%;
+}
+#main_p{
+    text-align: center;
+    border-radius: 20px;
+    Align: Center;
+    vertical-align: top;
 }
 
 p {
-  font-size: 20px;
-  /* font-weight: 400;
-  font-size: 35px;*/
-  line-height: 150%;
-  
+    font-size: 20px;
+    line-height: 150%;
+
 }
 
 .w-btn {
-  position: relative;
-  border: none;
-  display: inline-block;
-  padding: 15px 30px;
-  border-radius: 30px;
-  width: 80%;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 23px;
-  transition: 0.25s;
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 30px;
+    width: 80%;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 23px;
+    transition: 0.25s;
 }
 
 .w-btn-green {
-  background-color: #77af9c;
-  color: #d7fff1;
+    background-color: #77af9c;
+    color: #d7fff1;
 }
 
 .w-btn:active {
-  transform: scale(1.3);
+    transform: scale(1.3);
 }
 
 .w-btn-green-outline:hover {
-  background-color: #77af9c;
-  color: #d7fff1;
+    background-color: #77af9c;
+    color: #d7fff1;
 }

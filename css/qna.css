@@ -1,4 +1,7 @@
+
+
 #qna {
+    background: #FDFFFB;
   display: none;
 }
 
@@ -18,29 +21,28 @@
 
 .qcount{
   Font-family: Inter;
-  Font-style: Regular;
   Font-size: 15px;
   Line-height: 20px;
-  Line-height: 133%;
+  Line-height: 150%;
   Align: Center;
   text-align: right;
   vertical-align: Top;
-  letter-spacing: -5%;
 }
 
 #img{
-  display: block ; 
-  margin: 0 auto ;
+  display: block ;
    width: 300px ; 
    height:300px ;
+  margin: 0 auto;
    object-fit: cover;
+
 }
 #qtext{
-  display: block ; 
-  margin: 0 auto ;
-   width: 300px ; 
-   font-size: 27px;
-   object-fit: cover;
+  display: block;
+  width: 250px;
+  font-size: 23px;
+  object-fit: cover;
+  margin: 0 auto;
 }
 
 

@@ -18,12 +18,12 @@ function calResult(){
 
 function setResult(){
   let point = calResult();
-  const resultName = document.querySelector('.resultname');
-  resultName.innerHTML = infoList[point].name;
+  // const resultName = document.querySelector('.resultname');
+  // resultName.innerHTML = infoList[point].name;
   
   var resultImg = document.createElement('img');
   const imgDiv = document.querySelector('#resultImg');
-  var imgURL = './resultimg/result' + point + '.png';
+  var imgURL = './resultimg/result' + point + '.jpg';
   resultImg.src = imgURL;
   resultImg.alt = point;
   resultImg.classList.add('img-fluid');
