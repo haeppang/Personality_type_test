@@ -38,6 +38,7 @@
 
 }
 #qtext{
+  text-align: center;
   display: block;
   width: 250px;
   font-size: 23px;
