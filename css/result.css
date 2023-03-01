@@ -71,7 +71,7 @@
     botton: 0;
 }
 
-.gohome:hover, .gohome:focus {
+#shareResult>.gohome:hover, .gohome:focus {
     background-color: whitesmoke;
     color: green;
 }
