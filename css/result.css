@@ -1,60 +1,77 @@
 
-
-#result{
-  display: none;
-  width: 80%;
-  text-align: center;
-  border-radius: 20px;
-  
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+#result {
+    display: none;
+    text-align: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-#shareResult{
-  background-color: whitesmoke;
-  width: 80%;
-  text-align: center;
-  border-radius: 20px;
+#shareResult {
+    text-align: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
+#resultImg {
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
 .Rbox {
-
-  height: 200px;
-   font-size: 25px;
-}
-.back{
-  border: 1px solid #4E946A;
-  border-radius: 0px;
-  text-align: center;
-  line-height: 150px;
+    width: 100%;
+    margin: auto;
+    display: block;
 }
 
-.resultDesc{
+.kakao {
+    color: whitesmoke;
+    background-color: #4E946A;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 20px;
+    botton: 0;
+    margin-right: 10px;
 
-  font-size: 20px;
-  letter-spacing: 2px;
 }
 
-.kakao{
-  color: whitesmoke;
-  background-color: #4E946A;
-  font-size: 20px;
-  border: 0px;
-  border-radius: 20px;
+.kakao0 {
+    color: whitesmoke;
+    background-color: #4E946A;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 20px;
+    botton: 0;
+
 }
 
-.kakao:hover, .kakao:focus {
-  background-color: whitesmoke;
-  color: green;
+.box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+
 }
 
-.gohome{
-  color: white;
-  background-color: pink;
-  font-size: 20px;
-  border: 0px;
-  border-radius: 20px;
+.box > button:hover {
+    background-color: whitesmoke;
+    color: green;
+}
+
+.gohome {
+    color: whitesmoke;
+    background-color: #4E946A;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border: 0px;
+    border-radius: 20px;
+    botton: 0;
 }
 
 .gohome:hover, .gohome:focus {
-  background-color: whitesmoke;
-  color: pink;
+    background-color: whitesmoke;
+    color: green;
 }
