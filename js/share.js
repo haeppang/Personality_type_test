@@ -6,7 +6,7 @@ function setShare() {
     const shareTitle = '유형별 쓰줍러 결과';
     const shareDes = infoList[resultAlt].name;
     const shareImage = url + 'resultimg/result' + resultAlt + '.jpg';
-    const shareURL = url + 'page/result-' + resultAlt + '.html';
+    const shareURL = url;
 
     Kakao.Link.sendDefault({
         objectType: 'feed',
