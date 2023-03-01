@@ -1,4 +1,4 @@
-const url = 'https://twelvelovetype.netlify.app/';
+const url = 'https://ploggingtest.swygbro.com/';
 
 function setShare() {
     var resultImg = document.querySelector('#resultImg');
@@ -22,7 +22,7 @@ function setShare() {
 
         buttons: [
             {
-                title: '결과확인하기',
+                title: '나도 참여하기',
                 link: {
                     mobileWebUrl: shareURL,
                     webUrl: shareURL,
