@@ -58,7 +58,7 @@
     color: green;
 }
 
-.gohome {
+#shareResult>.gohome {
     color: whitesmoke;
     background-color: #4E946A;
     font-size: 20px;
