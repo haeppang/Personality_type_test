@@ -3,9 +3,9 @@ const url = 'https://ploggingtest.swygbro.com/';
 function setShare() {
     var resultImg = document.querySelector('#resultImg');
     var resultAlt = resultImg.firstElementChild.alt;
-    const shareTitle = '유형별 쓰줍러 결과';
+    const shareTitle = '나의 유형별 쓰줍러 결과';
     const shareDes = infoList[resultAlt].name;
-    const shareImage = url + 'resultimg/result' + resultAlt + '.jpg';
+    const shareImage = url + 'shareimg/result' + resultAlt + '.png';
     const shareURL = url;
 
     Kakao.Link.sendDefault({
