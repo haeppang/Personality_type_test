@@ -5,7 +5,7 @@ function setShare() {
     var resultAlt = resultImg.firstElementChild.alt;
     const shareTitle = '나의 유형별 쓰줍러 결과';
     const shareDes = infoList[resultAlt].name;
-    const shareImage ='shareimg/result' + resultAlt + '.png';
+    const shareImage ='./shareimg/result' + resultAlt + '.png';
     const shareURL = url;
 
     Kakao.Link.sendDefault({
