@@ -28,8 +28,8 @@ function setResult(){
   resultImg.classList.add('img-fluid');
   imgDiv.appendChild(resultImg);
 
-  const resultDesc = document.querySelector('.resultDesc');
-  resultDesc.innerHTML = infoList[point].desc;
+  // const resultDesc = document.querySelector('.resultDesc');
+  // resultDesc.innerHTML = infoList[point].desc;
 
 }
 
